@@ -17,6 +17,7 @@
 .hero h1 {
   margin-bottom: var(--space-xl);
   line-height: 1.1;
+  color: #000000;
 }
 
 .hero-subtitle {
