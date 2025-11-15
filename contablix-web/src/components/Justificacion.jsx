@@ -1,3 +1,4 @@
+import React from 'react';
 import './Justificacion.css';
 
 function Justificacion() {

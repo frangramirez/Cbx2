@@ -1,3 +1,4 @@
+import React from 'react';
 import './DarkSection.css';
 
 function DarkSection() {

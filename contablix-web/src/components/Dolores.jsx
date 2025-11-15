@@ -1,3 +1,4 @@
+import React from 'react';
 import './Dolores.css';
 
 function Dolores() {

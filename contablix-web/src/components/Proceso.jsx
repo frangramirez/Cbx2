@@ -1,3 +1,4 @@
+import React from 'react';
 import './Proceso.css';
 
 function Proceso() {
