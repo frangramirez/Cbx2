@@ -1,5 +1,5 @@
 .light-section {
-  background: linear-gradient(to bottom, #000000 0%, #1a1a1a 15%, #4d4d4d 30%, #999999 50%, #d0d0d0 65%, #e8e8e8 80%, #ffffff 100%);
+  background: #000000;
   padding: 0;
   min-height: 80vh;
   display: flex;

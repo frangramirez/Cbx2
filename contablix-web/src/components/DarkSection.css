@@ -1,5 +1,5 @@
 .dark-section {
-  background: linear-gradient(to bottom, #ffffff 0%, #e8e8e8 20%, #d0d0d0 35%, #999999 50%, #4d4d4d 70%, #000000 85%, #000000 100%);
+  background: #ffffff;
   padding: 0;
   min-height: 100vh;
   display: flex;
