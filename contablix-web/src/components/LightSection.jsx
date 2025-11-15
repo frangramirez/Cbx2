@@ -11,7 +11,7 @@ function LightSection() {
   useEffect(() => {
     const section = sectionRef.current;
 
-    // Animar el background de negro a blanco
+    // Animar el background de negro a blanco - MÁS RÁPIDO
     gsap.fromTo(section,
       {
         background: 'linear-gradient(to bottom, #000000 0%, #000000 100%)'
@@ -20,9 +20,9 @@ function LightSection() {
         background: 'linear-gradient(to bottom, #ffffff 0%, #ffffff 100%)',
         scrollTrigger: {
           trigger: section,
-          start: 'top bottom',
-          end: 'bottom center',
-          scrub: 1.5,
+          start: 'top 80%',
+          end: 'top 20%',
+          scrub: 0.5,
         }
       }
     );
@@ -30,12 +30,12 @@ function LightSection() {
     // Animar el contenido con fade in
     gsap.from('.light-section-content', {
       opacity: 0,
-      y: 50,
+      y: 80,
       scrollTrigger: {
         trigger: '.light-section-content',
-        start: 'top 80%',
-        end: 'top 50%',
-        scrub: 1,
+        start: 'top 70%',
+        end: 'top 40%',
+        scrub: 0.5,
       }
     });
 

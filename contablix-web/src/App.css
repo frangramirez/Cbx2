@@ -6,4 +6,11 @@
 
 main {
   flex: 1;
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
+}
+
+main > section {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
 }
