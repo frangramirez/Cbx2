@@ -1,25 +1,29 @@
-.hero {
+.light-section {
+  background: linear-gradient(to bottom, #000000 0%, #ffffff 15%, #ffffff 100%);
   padding: var(--space-4xl) 0;
-  min-height: 90vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffffff;
+  position: relative;
 }
 
-.hero-content {
+.light-section-content {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
-  padding: var(--space-2xl) 0;
+  padding: var(--space-3xl) 0;
 }
 
-.hero h1 {
+.light-section h2 {
+  color: var(--color-text);
   margin-bottom: var(--space-xl);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
   line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
-.hero-subtitle {
+.light-section-description {
   font-size: clamp(1.25rem, 2.5vw, 1.75rem);
   color: var(--color-text-secondary);
   margin-bottom: var(--space-2xl);
@@ -29,29 +33,30 @@
   line-height: 1.5;
 }
 
-.hero-ctas {
+.light-section-cta {
   display: flex;
   gap: var(--space-md);
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: var(--space-2xl);
 }
 
 @media (max-width: 768px) {
-  .hero {
+  .light-section {
     padding: var(--space-3xl) 0;
-    min-height: 85vh;
+    min-height: auto;
   }
 
-  .hero-content {
-    padding: var(--space-xl) 0;
+  .light-section-content {
+    padding: var(--space-2xl) 0;
   }
 
-  .hero-ctas {
+  .light-section-cta {
     flex-direction: column;
     align-items: center;
   }
 
-  .hero-ctas .btn {
+  .light-section-cta .btn {
     width: 100%;
     max-width: 300px;
   }

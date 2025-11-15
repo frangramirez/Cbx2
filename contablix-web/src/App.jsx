@@ -1,5 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
+import DarkSection from './components/DarkSection';
+import LightSection from './components/LightSection';
 import Dolores from './components/Dolores';
 import Justificacion from './components/Justificacion';
 import Autoridad from './components/Autoridad';
@@ -14,6 +16,8 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <DarkSection />
+        <LightSection />
         <Dolores />
         <Justificacion />
         <Autoridad />
