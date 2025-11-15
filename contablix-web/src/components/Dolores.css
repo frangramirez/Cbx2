@@ -1,6 +1,9 @@
 .dolores {
   padding: var(--space-4xl) 0;
-  background-color: var(--color-bg);
+  background-color: #ffffff;
+  position: relative;
+  z-index: 10;
+  min-height: 80vh;
 }
 
 .dolores-header {
